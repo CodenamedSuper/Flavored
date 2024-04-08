@@ -10,24 +10,24 @@
 
   "item.flavored.garlic": "大蒜",
 
-  "item.flavored.pumpkin_slice": "南瓜片",
+  "item.flavored.pumpkin_slice": "切片南瓜",
 
-  "item.flavored.cheese_slice": "奶酪片",
+  "item.flavored.cheese_slice": "切片奶酪",
 
 
-  "block.flavored.boiler": "锅炉",
+  "block.flavored.boiler": "陶锅",
 
   "item.flavored.glazed_chicken": "酱汁鸡肉",
   "item.flavored.glazed_mutton": "酱汁羊肉",
   "item.flavored.glazed_beef": "酱汁牛肉",
   "item.flavored.glazed_pork": "酱汁猪肉",
 
-  "item.flavored.candied_apple": "苹果糖",
+  "item.flavored.candied_apple": "淋糖苹果",
 
 
   "item.flavored.rosemary": "迷迭香",
 
-  "block.flavored.plenty": "Basket of Plenty",
+  "block.flavored.plenty": "丰饶之篮",
 
 
   "item.flavored.caramel": "焦糖",
@@ -35,11 +35,11 @@
 
 
   "block.flavored.cauliflower": "花椰菜",
-  "block.flavored.carved_cauliflower": "雕刻过的花椰菜",
+  "block.flavored.carved_cauliflower": "雕刻花椰菜",
   "item.flavored.cauliflower_seeds": "花椰菜种子",
   "block.flavored.fermenter": "发酵器",
   "block.flavored.plant_pot": "种植盆",
-  "block.flavored.range": "炉灶",
+  "block.flavored.range": "灶台",
 
 
 
@@ -59,8 +59,8 @@
 
   "item.flavored.flour": "面粉",
 
-  "item.flavored.delicacy_pottery_sherd": "Delicacy 纹样陶片",
-  "item.flavored.refresh_pottery_sherd": "Refresh 纹样陶片",
+  "item.flavored.delicacy_pottery_sherd": "佳肴纹样陶片",
+  "item.flavored.refresh_pottery_sherd": "畅饮纹样陶片",
 
 
   "item.flavored.pasta": "意面面条",
@@ -74,14 +74,14 @@
   "block.flavored.crate": "板条箱",
 
 
-  "item.flavored.spaghetti": "番茄肉酱意大利面",
-  "item.flavored.carbonara": "培根蛋酱意大利面",
+  "item.flavored.spaghetti": "番茄肉酱意面",
+  "item.flavored.carbonara": "培根蛋酱意面",
   "item.flavored.salad": "沙拉",
 
   "entity.minecraft.villager.chef": "厨师",
 
 
-  "block.flavored.carved_melon": "雕刻过的西瓜",
+  "block.flavored.carved_melon": "雕刻西瓜",
 
   "item.flavored.chorus_cocktail": "紫颂果鸡尾酒",
   "item.flavored.fig_cocktail": "无花果鸡尾酒",
@@ -111,6 +111,9 @@
   "block.flavored.ancient_fence_gate": "远古木栅栏门",
   "block.flavored.ancient_slab": "远古木台阶",
   "block.flavored.ancient_stairs": "远古木楼梯",
+  "block.flavored.ancient_sign": "远古木告示牌",
+  
+  "item.flavored.ancient_sign": "远古木告示牌",
 
   "block.flavored.ancient_standing_sign": "站立的远古木告示牌",
   "block.flavored.ancient_wall_sign": "墙上的远古木告示牌",
@@ -143,8 +146,15 @@
   "item.flavored.fruit_salad": "水果沙拉",
   "item.flavored.mashed_potatoes": "土豆泥",
   "item.flavored.grilled_vegetables": "烤蔬菜",
-  "item.flavored.alfredo": "阿尔弗雷德白酱"
+  "item.flavored.alfredo": "阿尔弗雷德白酱意面",
+  "item.flavored.ocean_stew": "海鲜炖菜",
+  
+  "item.flavored.porridge": "麦片粥",
+  "item.flavored.shakshoka": "北非蛋",
+  "item.flavored.minestrone": "意式蔬菜汤",
 
+  "block.flavored.wild_spinach": "野生菠菜",
+  "block.flavored.wild_garlic": "野生大蒜"
 
 
 }
