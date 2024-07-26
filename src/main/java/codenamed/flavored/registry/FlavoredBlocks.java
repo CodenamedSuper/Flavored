@@ -57,16 +57,16 @@ public class FlavoredBlocks {
     public static final Block GARLICS = registerBlock("garlics",
             new CropBlock(AbstractBlock.Settings.copy(Blocks.CARROTS)));
 
-    public  static  final  Block CAULIFLOWER = registerBlock("cauliflower",
+    public static final Block CAULIFLOWER = registerBlock("cauliflower",
             new CauliflowerBlock(AbstractBlock.Settings.create().mapColor(MapColor.ORANGE).instrument(NoteBlockInstrument.DIDGERIDOO).strength(1.0F).sounds(BlockSoundGroup.WOOD).pistonBehavior(PistonBehavior.DESTROY)));
 
-    public  static  final  Block CARVED_CAULIFLOWER = registerBlock("carved_cauliflower",
+    public static final Block CARVED_CAULIFLOWER = registerBlock("carved_cauliflower",
             new WearableCarvedCauliflowerBlock(AbstractBlock.Settings.create().mapColor(MapColor.ORANGE).strength(1.0F).sounds(BlockSoundGroup.WOOD).allowsSpawning(Blocks::always).pistonBehavior(PistonBehavior.DESTROY)));
 
-    public  static  final  Block ATTACHED_CAULIFLOWER_STEM =
+    public static final Block ATTACHED_CAULIFLOWER_STEM =
             registerBlock ("attached_cauliflower_stem", new AttachedStemBlock(FlavoredBlockKeys.CAULIFLOWER_STEM, FlavoredBlockKeys.CAULIFLOWER, FlavoredItemKeys.CAULIFLOWER_SEEDS, AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().breakInstantly().sounds(BlockSoundGroup.WOOD).pistonBehavior(PistonBehavior.DESTROY)));
 
-    public  static  final  Block CAULIFLOWER_STEM =
+    public static final Block CAULIFLOWER_STEM =
             registerBlock("cauliflower_stem", new StemBlock(FlavoredBlockKeys.CAULIFLOWER, FlavoredBlockKeys.ATTACHED_CAULIFLOWER_STEM, FlavoredItemKeys.CAULIFLOWER_SEEDS, AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.STEM).pistonBehavior(PistonBehavior.DESTROY)));
 
 
