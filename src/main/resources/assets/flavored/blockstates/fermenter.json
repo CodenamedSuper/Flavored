@@ -1,0 +1,215 @@
+{
+  "variants": {
+    "facing=east,liquid=0,color=none": {
+      "model": "flavored:block/fermenter",
+      "y": 90
+    },
+    "facing=north,liquid=0,color=none": {
+      "model": "flavored:block/fermenter"
+    },
+    "facing=south,liquid=0,color=none": {
+      "model": "flavored:block/fermenter",
+      "y": 180
+    },
+    "facing=west,liquid=0,color=none": {
+      "model": "flavored:block/fermenter",
+      "y": 270
+    },
+    "facing=east,liquid=1,color=none": {
+      "model": "flavored:block/fermenter_water",
+      "y": 90
+    },
+    "facing=north,liquid=1,color=none": {
+      "model": "flavored:block/fermenter_water"
+    },
+    "facing=south,liquid=1,color=none": {
+      "model": "flavored:block/fermenter_water",
+      "y": 180
+    },
+    "facing=west,liquid=1,color=none": {
+      "model": "flavored:block/fermenter_water",
+      "y": 270
+    },
+    "facing=east,liquid=2,color=none": {
+      "model": "flavored:block/fermenter_milk",
+      "y": 90
+    },
+    "facing=north,liquid=2,color=none": {
+      "model": "flavored:block/fermenter_milk"
+    },
+    "facing=south,liquid=2,color=none": {
+      "model": "flavored:block/fermenter_milk",
+      "y": 180
+    },
+    "facing=west,liquid=2,color=none": {
+      "model": "flavored:block/fermenter_milk",
+      "y": 270
+    },
+
+    "facing=east,liquid=0,color=red": {
+      "model": "flavored:block/fermenter_red",
+      "y": 90
+    },
+    "facing=north,liquid=0,color=red": {
+      "model": "flavored:block/fermenter_red"
+    },
+    "facing=south,liquid=0,color=red": {
+      "model": "flavored:block/fermenter_red",
+      "y": 180
+    },
+    "facing=west,liquid=0,color=red": {
+      "model": "flavored:block/fermenter_red",
+      "y": 270
+    },
+    "facing=east,liquid=0,color=magenta": {
+      "model": "flavored:block/fermenter_magenta",
+      "y": 90
+    },
+    "facing=north,liquid=0,color=magenta": {
+      "model": "flavored:block/fermenter_magenta"
+    },
+    "facing=south,liquid=0,color=magenta": {
+      "model": "flavored:block/fermenter_magenta",
+      "y": 180
+    },
+    "facing=west,liquid=0,color=magenta": {
+      "model": "flavored:block/fermenter_magenta",
+      "y": 270
+    },
+    "facing=east,liquid=0,color=pink": {
+      "model": "flavored:block/fermenter_pink",
+      "y": 90
+    },
+    "facing=north,liquid=0,color=pink": {
+      "model": "flavored:block/fermenter_pink"
+    },
+    "facing=south,liquid=0,color=pink": {
+      "model": "flavored:block/fermenter_pink",
+      "y": 180
+    },
+    "facing=west,liquid=0,color=pink": {
+      "model": "flavored:block/fermenter_pink",
+      "y": 270
+    },
+    "facing=east,liquid=0,color=purple": {
+      "model": "flavored:block/fermenter_purple",
+      "y": 90
+    },
+    "facing=north,liquid=0,color=purple": {
+      "model": "flavored:block/fermenter_purple"
+    },
+    "facing=south,liquid=0,color=purple": {
+      "model": "flavored:block/fermenter_purple",
+      "y": 180
+    },
+    "facing=west,liquid=0,color=purple": {
+      "model": "flavored:block/fermenter_purple",
+      "y": 270
+    },
+    "facing=east,liquid=0,color=green": {
+      "model": "flavored:block/fermenter_green",
+      "y": 90
+    },
+    "facing=north,liquid=0,color=green": {
+      "model": "flavored:block/fermenter_green"
+    },
+    "facing=south,liquid=0,color=green": {
+      "model": "flavored:block/fermenter_green",
+      "y": 180
+    },
+    "facing=west,liquid=0,color=green": {
+      "model": "flavored:block/fermenter_green",
+      "y": 270
+    },
+    "facing=east,liquid=0,color=lime": {
+      "model": "flavored:block/fermenter_lime",
+      "y": 90
+    },
+    "facing=north,liquid=0,color=lime": {
+      "model": "flavored:block/fermenter_lime"
+    },
+    "facing=south,liquid=0,color=lime": {
+      "model": "flavored:block/fermenter_lime",
+      "y": 180
+    },
+    "facing=west,liquid=0,color=lime": {
+      "model": "flavored:block/fermenter_lime",
+      "y": 270
+    },
+    "facing=east,liquid=0,color=yellow": {
+      "model": "flavored:block/fermenter_yellow",
+      "y": 90
+    },
+    "facing=north,liquid=0,color=yellow": {
+      "model": "flavored:block/fermenter_yellow"
+    },
+    "facing=south,liquid=0,color=yellow": {
+      "model": "flavored:block/fermenter_yellow",
+      "y": 180
+    },
+    "facing=west,liquid=0,color=yellow": {
+      "model": "flavored:block/fermenter_yellow",
+      "y": 270
+    },
+    "facing=east,liquid=0,color=orange": {
+      "model": "flavored:block/fermenter_orange",
+      "y": 90
+    },
+    "facing=north,liquid=0,color=orange": {
+      "model": "flavored:block/fermenter_orange"
+    },
+    "facing=south,liquid=0,color=orange": {
+      "model": "flavored:block/fermenter_orange",
+      "y": 180
+    },
+    "facing=west,liquid=0,color=orange": {
+      "model": "flavored:block/fermenter_orange",
+      "y": 270
+    },
+    "facing=east,liquid=0,color=wheat": {
+      "model": "flavored:block/fermenter_wheat",
+      "y": 90
+    },
+    "facing=north,liquid=0,color=wheat": {
+      "model": "flavored:block/fermenter_wheat"
+    },
+    "facing=south,liquid=0,color=wheat": {
+      "model": "flavored:block/fermenter_wheat",
+      "y": 180
+    },
+    "facing=west,liquid=0,color=wheat": {
+      "model": "flavored:block/fermenter_wheat",
+      "y": 270
+    },
+    "facing=east,liquid=0,color=brown": {
+      "model": "flavored:block/fermenter_brown",
+      "y": 90
+    },
+    "facing=north,liquid=0,color=brown": {
+      "model": "flavored:block/fermenter_brown"
+    },
+    "facing=south,liquid=0,color=brown": {
+      "model": "flavored:block/fermenter_brown",
+      "y": 180
+    },
+    "facing=west,liquid=0,color=brown": {
+      "model": "flavored:block/fermenter_brown",
+      "y": 270
+    },
+    "facing=east,liquid=0,color=oil": {
+      "model": "flavored:block/fermenter_oil",
+      "y": 90
+    },
+    "facing=north,liquid=0,color=oil": {
+      "model": "flavored:block/fermenter_oil"
+    },
+    "facing=south,liquid=0,color=oil": {
+      "model": "flavored:block/fermenter_oil",
+      "y": 180
+    },
+    "facing=west,liquid=0,color=oil": {
+      "model": "flavored:block/fermenter_oil",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+
+    "*": {
+      "id": "minecraft:copper_ingot"
+    },
+    "#": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "* *",
+    "###"
+  ],
+  "result": {
+    "id": "flavored:fermenter"
+  }
+}

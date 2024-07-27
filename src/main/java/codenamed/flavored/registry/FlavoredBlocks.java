@@ -16,6 +16,11 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class FlavoredBlocks {
+
+    public static final Block FERMENTER = registerBlock("fermenter",
+            new FermenterBlock(AbstractBlock.Settings.copy(Blocks.COPPER_BLOCK).ticksRandomly()));
+
+
     public static final Block TOMATO_BUSH = registerBlockWithoutItem("tomato_bush",
             new TomatoBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)
                     .noCollision()

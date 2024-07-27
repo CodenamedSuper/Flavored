@@ -1,5 +1,7 @@
 package codenamed.flavored.registry;
 
+import codenamed.flavored.Flavored;
+import codenamed.flavored.block.entity.FermenterBlockEntity;
 import com.mojang.datafixers.types.Type;
 import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityType;
 import net.minecraft.block.Block;
@@ -18,7 +20,7 @@ import java.util.Set;
 
 public class FlavoredBlockEntityType {
 
-    ///public static final BlockEntityType<FermenterBlockEntity> FERMENTER;
+    public static final BlockEntityType<FermenterBlockEntity> FERMENTER;
 
 
 
@@ -27,15 +29,14 @@ public class FlavoredBlockEntityType {
         return Registries.BLOCK_ENTITY_TYPE.getId(type);
     }
 
-    private static <T extends BlockEntity> BlockEntityType create(String id, BlockEntityType.Builder<T> builder) {
-
+    private static <T extends BlockEntity> BlockEntityType<T> create(String id, BlockEntityType.Builder<T> builder) {
 
         Type<?> type = Util.getChoiceType(TypeReferences.BLOCK_ENTITY, id);
-        return Registry.register(Registries.BLOCK_ENTITY_TYPE, id, builder.build(type));
+        return Registry.register(Registries.BLOCK_ENTITY_TYPE, Identifier.of(Flavored.MOD_ID, id), builder.build(type));
     }
 
     static {
-        ///FERMENTER = create("fermenter", BlockEntityType.Builder.create(FermenterBlockEntity::new, FlavoredBlocks.Fermenter));
+        FERMENTER = create("fermenter", BlockEntityType.Builder.create(FermenterBlockEntity::new, FlavoredBlocks.FERMENTER));
     }
 
     public static final class Builder<T extends BlockEntity> implements FabricBlockEntityType.Builder<T> {
@@ -49,6 +50,7 @@ public class FlavoredBlockEntityType {
 
 
 
+
         public BlockEntityType<T> build(Type<?> type) {
             return new BlockEntityType(this.factory, this.blocks, type);
         }
@@ -58,5 +60,6 @@ public class FlavoredBlockEntityType {
     private interface BlockEntityFactory<T extends BlockEntity> {
         T create(BlockPos pos, BlockState state);
     }
+
 
 }

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "flavored:block/fermenter_bottom",
+    "east": "flavored:block/fermenter_side",
+    "north": "flavored:block/fermenter_green",
+    "particle": "flavored:block/fermenter_side",
+    "south": "flavored:block/fermenter_side",
+    "up": "flavored:block/fermenter_green_top",
+    "west": "flavored:block/fermenter_side"
+  }
+}
