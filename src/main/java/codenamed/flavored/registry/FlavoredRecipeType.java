@@ -1,5 +1,6 @@
 package codenamed.flavored.registry;
 
+import codenamed.flavored.Flavored;
 import codenamed.flavored.recipe.FermentingRecipe;
 import net.minecraft.recipe.Recipe;
 import net.minecraft.recipe.RecipeType;
@@ -18,4 +19,10 @@ public interface FlavoredRecipeType<T extends Recipe<?>> {
             }
         });
     }
+
+
+    public static void registerScreenHanlerTypes() {
+        Flavored.LOGGER.info("Registering screen handler types for " + Flavored.MOD_ID);
+    }
+
 }

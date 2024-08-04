@@ -1,8 +1,6 @@
 package codenamed.flavored;
 
-import codenamed.flavored.registry.FlavoredBlocks;
-import codenamed.flavored.registry.FlavoredItemGroup;
-import codenamed.flavored.registry.FlavoredItems;
+import codenamed.flavored.registry.*;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -24,6 +22,8 @@ public class Flavored implements ModInitializer {
 
 
 		FlavoredBlocks.registerModBlocks();
+		FlavoredBlockEntityType.registerModBlocks();
+		FlavoredScreenHandlerType.registerScreenHandlerTypes();
 		FlavoredItems.registerModItems();
 		FlavoredItemGroup.registerItemGroups();
 	}

@@ -99,10 +99,7 @@ public  static  final EnumProperty<Color> COLOR = EnumProperty.of("color", Color
 
         if (fluid == Fluids.WATER && b instanceof FermenterBlockEntity) {
 
-            if (((FermenterBlockEntity) b).getStack(3).getItem() == Items.BUCKET) {
 
-                world.setBlockState(pos, (BlockState) state.with(LIQUID, 1));
-            }
 
         }
 
@@ -120,7 +117,6 @@ public  static  final EnumProperty<Color> COLOR = EnumProperty.of("color", Color
     }
 
 
-    @Nullable
     @Override
     public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
         return new FermenterBlockEntity(pos, state);
@@ -146,17 +142,7 @@ public  static  final EnumProperty<Color> COLOR = EnumProperty.of("color", Color
         builder.add(new Property[]{LIQUID, COLOR, FACING});
     }
 
-    @Override
-    public void onStateReplaced(BlockState state, World world, BlockPos pos, BlockState newState, boolean moved) {
-        if (state.getBlock() != newState.getBlock()) {
-            BlockEntity blockEntity = world.getBlockEntity(pos);
-            if (blockEntity instanceof FermenterBlockEntity) {
-                ItemScatterer.spawn(world, pos, (FermenterBlockEntity)blockEntity);
-                world.updateComparators(pos,this);
-            }
-            super.onStateReplaced(state, world, pos, newState, moved);
-        }
-    }
+
 
     @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, BlockHitResult hit) {
@@ -176,6 +162,7 @@ public  static  final EnumProperty<Color> COLOR = EnumProperty.of("color", Color
 
         return state.get(LIQUID);
     }
+
 
 
 }

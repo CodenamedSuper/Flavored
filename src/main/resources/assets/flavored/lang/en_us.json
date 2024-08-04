@@ -1,8 +1,12 @@
 {
   "block.flavored.cauliflower": "Cauliflower",
-  "block.flavored.fermenter": "Fermenter",
-
   "block.flavored.carved_cauliflower": "Carved Cauliflower",
+
+  "block.flavored.fermenter": "Fermenter",
+  "block.flavored.oven": "Oven",
+  "block.flavored.pan": "Pan",
+  "block.flavored.boiler": "Boiler",
+
 
 
   "item.flavored.tomato": "Tomato",

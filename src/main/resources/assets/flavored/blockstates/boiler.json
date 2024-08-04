@@ -1,0 +1,67 @@
+{
+  "variants": {
+    "facing=north,water=0": {
+      "model": "flavored:block/boiler"
+    },
+    "facing=south,water=0": {
+      "model": "flavored:block/boiler",
+      "y": 180
+    },
+    "facing=west,water=0": {
+      "model": "flavored:block/boiler",
+      "y": 270
+    },
+    "facing=east,water=0": {
+      "model": "flavored:block/boiler",
+      "y": 90
+    },
+
+    "facing=north,water=1": {
+      "model": "flavored:block/boiler_water_1"
+    },
+    "facing=south,water=1": {
+      "model": "flavored:block/boiler_water_1",
+      "y": 180
+    },
+    "facing=west,water=1": {
+      "model": "flavored:block/boiler_water_1",
+      "y": 270
+    },
+    "facing=east,water=1": {
+      "model": "flavored:block/boiler_water_1",
+      "y": 90
+    },
+
+    "facing=north,water=2": {
+      "model": "flavored:block/boiler_water_2"
+    },
+    "facing=south,water=2": {
+      "model": "flavored:block/boiler_water_2",
+      "y": 180
+    },
+    "facing=west,water=2": {
+      "model": "flavored:block/boiler_water_2",
+      "y": 270
+    },
+    "facing=east,water=2": {
+      "model": "flavored:block/boiler_water_2",
+      "y": 90
+    },
+
+    "facing=north,water=3": {
+      "model": "flavored:block/boiler_water_3"
+    },
+    "facing=south,water=3": {
+      "model": "flavored:block/boiler_water_3",
+      "y": 180
+    },
+    "facing=west,water=3": {
+      "model": "flavored:block/boiler_water_3",
+      "y": 270
+    },
+    "facing=east,water=3": {
+      "model": "flavored:block/boiler_water_3",
+      "y": 90
+    }
+  }
+}

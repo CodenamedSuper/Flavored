@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "flavored:block/oven_bottom",
+    "east": "flavored:block/oven_side",
+    "north": "flavored:block/oven_front_on",
+    "particle": "flavored:block/oven_side",
+    "south": "flavored:block/oven_side",
+    "up": "flavored:block/oven_top",
+    "west": "flavored:block/oven_west"
+  }
+}

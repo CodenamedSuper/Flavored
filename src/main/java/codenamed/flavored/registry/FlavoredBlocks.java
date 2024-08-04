@@ -20,6 +20,17 @@ public class FlavoredBlocks {
     public static final Block FERMENTER = registerBlock("fermenter",
             new FermenterBlock(AbstractBlock.Settings.copy(Blocks.COPPER_BLOCK).ticksRandomly()));
 
+    public static final Block OVEN = registerBlock("oven",
+            new OvenBlock(AbstractBlock.Settings.copy(Blocks.PACKED_MUD).ticksRandomly()));
+
+
+    public static final Block BOILER = registerBlock("boiler",
+            new BoilerBlock(AbstractBlock.Settings.copy(Blocks.COPPER_BLOCK).ticksRandomly()));
+
+    public static final Block PAN = registerBlock("pan",
+            new PanBlock(AbstractBlock.Settings.copy(Blocks.CAULDRON).ticksRandomly()));
+
+
 
     public static final Block TOMATO_BUSH = registerBlockWithoutItem("tomato_bush",
             new TomatoBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)

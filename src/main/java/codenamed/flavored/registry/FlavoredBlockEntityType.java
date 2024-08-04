@@ -20,46 +20,37 @@ import java.util.Set;
 
 public class FlavoredBlockEntityType {
 
-    public static final BlockEntityType<FermenterBlockEntity> FERMENTER;
 
 
+    public static final BlockEntityType<FermenterBlockEntity> FERMENTER = Registry.register(
+            Registries.BLOCK_ENTITY_TYPE,
+            Identifier.of(Flavored.MOD_ID, "fermenter"),
+            BlockEntityType.Builder.create(FermenterBlockEntity::new, FlavoredBlocks.FERMENTER).build());
 
-    @Nullable
-    public static Identifier getId(BlockEntityType<?> type) {
-        return Registries.BLOCK_ENTITY_TYPE.getId(type);
+    public static final BlockEntityType<OvenBlockEntity> OVEN = Registry.register(
+            Registries.BLOCK_ENTITY_TYPE,
+            Identifier.of(Flavored.MOD_ID, "oven"),
+            BlockEntityType.Builder.create(OvenBlockEntity::new, FlavoredBlocks.OVEN).build()
+    );
+
+    public static final BlockEntityType<BoilerBlockEntity> BOILER = Registry.register(
+            Registries.BLOCK_ENTITY_TYPE,
+            Identifier.of(Flavored.MOD_ID, "oven"),
+            BlockEntityType.Builder.create(BoilerBlockEntity::new, FlavoredBlocks.BOILER).build()
+    );
+    public static final BlockEntityType<PanBlockEntity> PAN = Registry.register(
+            Registries.BLOCK_ENTITY_TYPE,
+            Identifier.of(Flavored.MOD_ID, "oven"),
+            BlockEntityType.Builder.create(PanBlockEntity::new, FlavoredBlocks.PAN).build()
+    );
+
+
+    public static void registerModBlocks() {
+        Flavored.LOGGER.info("Registering Block Entity Types for " + Flavored.MOD_ID);
     }
 
-    private static <T extends BlockEntity> BlockEntityType<T> create(String id, BlockEntityType.Builder<T> builder) {
-
-        Type<?> type = Util.getChoiceType(TypeReferences.BLOCK_ENTITY, id);
-        return Registry.register(Registries.BLOCK_ENTITY_TYPE, Identifier.of(Flavored.MOD_ID, id), builder.build(type));
-    }
-
-    static {
-        FERMENTER = create("fermenter", BlockEntityType.Builder.create(FermenterBlockEntity::new, FlavoredBlocks.FERMENTER));
-    }
-
-    public static final class Builder<T extends BlockEntity> implements FabricBlockEntityType.Builder<T> {
-        private final BlockEntityType.BlockEntityFactory<? extends T> factory;
-        final Set<Block> blocks;
-
-        private Builder(BlockEntityType.BlockEntityFactory<? extends T> factory, Set<Block> blocks) {
-            this.factory = factory;
-            this.blocks = blocks;
-        }
 
 
-
-
-        public BlockEntityType<T> build(Type<?> type) {
-            return new BlockEntityType(this.factory, this.blocks, type);
-        }
-    }
-
-    @FunctionalInterface
-    private interface BlockEntityFactory<T extends BlockEntity> {
-        T create(BlockPos pos, BlockState state);
-    }
 
 
 }

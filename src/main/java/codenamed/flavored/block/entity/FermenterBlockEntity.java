@@ -32,7 +32,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.Optional;
 
-public class FermenterBlockEntity extends BlockEntity implements ExtendedScreenHandlerFactory, ImplementedInventory {
+public class FermenterBlockEntity extends BlockEntity implements ExtendedScreenHandlerFactory<FermenterScreenHandler>, ImplementedInventory {
     private final DefaultedList<ItemStack> inventory = DefaultedList.ofSize(5, ItemStack.EMPTY);
 
     private static final int INPUT_SLOT = 0;
@@ -214,7 +214,7 @@ public class FermenterBlockEntity extends BlockEntity implements ExtendedScreenH
     }
 
     @Override
-    public Object getScreenOpeningData(ServerPlayerEntity player) {
+    public FermenterScreenHandler getScreenOpeningData(ServerPlayerEntity player) {
         return null;
     }
 }

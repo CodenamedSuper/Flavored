@@ -39,4 +39,8 @@ public class FlavoredScreenHandlerType<T extends ScreenHandler> implements Toggl
     public interface Factory<T extends ScreenHandler> {
         T create(int syncId, PlayerInventory playerInventory);
     }
+
+    public static void registerScreenHandlerTypes() {
+        Flavored.LOGGER.info("Registering screen handler types for " + Flavored.MOD_ID);
+    }
 }

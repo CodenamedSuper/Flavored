@@ -18,6 +18,8 @@ public class FlavoredItemGroup {
 
                         entries.add(FlavoredBlocks.CAULIFLOWER);
                         entries.add(FlavoredBlocks.CARVED_CAULIFLOWER);
+                        entries.add(FlavoredBlocks.OVEN);
+                        entries.add(FlavoredBlocks.FERMENTER);
                         entries.add(FlavoredItems.TOMATO_SEEDS);
                         entries.add(FlavoredItems.CUCUMBER_SEEDS);
                         entries.add(FlavoredItems.PEPPER_SEEDS);

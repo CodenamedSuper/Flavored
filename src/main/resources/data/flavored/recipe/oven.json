@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+
+    "*": {
+      "id": "minecraft:cobbled_deepslate"
+    },
+    "#": {
+      "id": "minecraft:packed_mud"
+    }
+  },
+  "pattern": [
+    "***",
+    "# #",
+    "###"
+  ],
+  "result": {
+    "id": "flavored:oven"
+  }
+}
