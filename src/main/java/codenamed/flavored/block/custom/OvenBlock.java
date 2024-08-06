@@ -1,6 +1,7 @@
 package codenamed.flavored.block.custom;
 
 import codenamed.flavored.block.entity.FermenterBlockEntity;
+import codenamed.flavored.block.entity.OvenBlockEntity;
 import codenamed.flavored.helper.Color;
 import codenamed.flavored.registry.FlavoredBlockEntityType;
 import com.mojang.serialization.MapCodec;
@@ -103,7 +104,6 @@ public class OvenBlock extends BlockWithEntity implements BlockEntityProvider {
         if (state.getBlock() != newState.getBlock()) {
             BlockEntity blockEntity = world.getBlockEntity(pos);
             if (blockEntity instanceof OvenBlockEntity) {
-                ItemScatterer.spawn(world, pos, (OvenBlockEntity)blockEntity);
                 world.updateComparators(pos,this);
             }
             super.onStateReplaced(state, world, pos, newState, moved);
@@ -135,12 +135,7 @@ public class OvenBlock extends BlockWithEntity implements BlockEntityProvider {
         return new OvenBlockEntity(pos, state);
     }
 
-    @Nullable
-    @Override
-    public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
-        return validateTicker(type, FlavoredBlockEntityType.OVEN,
-                (world1, pos, state1, blockEntity) -> blockEntity.tick(world1, pos, state1, blockEntity));
-    }
+
 
     static {
         LIT = Properties.LIT;

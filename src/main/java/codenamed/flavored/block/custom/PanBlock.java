@@ -1,5 +1,6 @@
 package codenamed.flavored.block.custom;
 
+import codenamed.flavored.block.entity.PanBlockEntity;
 import com.mojang.serialization.MapCodec;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.BlockWithEntity;
@@ -8,7 +9,7 @@ import net.minecraft.util.math.BlockPos;
 import org.jetbrains.annotations.Nullable;
 
 public class PanBlock  extends BlockWithEntity {
-    protected PanBlock(Settings settings) {
+    public PanBlock(Settings settings) {
         super(settings);
     }
 

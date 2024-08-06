@@ -1,5 +1,6 @@
 package codenamed.flavored.block.custom;
 
+import codenamed.flavored.block.entity.BoilerBlockEntity;
 import codenamed.flavored.registry.FlavoredBlockEntityType;
 import com.mojang.serialization.MapCodec;
 import net.minecraft.block.*;
@@ -99,7 +100,6 @@ public class BoilerBlock extends BlockWithEntity implements BlockEntityProvider 
         if (state.getBlock() != newState.getBlock()) {
             BlockEntity blockEntity = world.getBlockEntity(pos);
             if (blockEntity instanceof BoilerBlockEntity) {
-                ItemScatterer.spawn(world, pos, (BoilerBlockEntity)blockEntity);
                 world.updateComparators(pos,this);
             }
             super.onStateReplaced(state, world, pos, newState, moved);
@@ -108,32 +108,9 @@ public class BoilerBlock extends BlockWithEntity implements BlockEntityProvider 
 
     @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos,
-                              PlayerEntity player, Hand hand, BlockHitResult hit) {
+                              PlayerEntity player, BlockHitResult hit) {
         BlockEntity b = world.getBlockEntity(pos);
 
-
-        if (player.getStackInHand(hand).getItem() == Items.WATER_BUCKET  && state.get(WATER) < MAX_WATER) {
-            world.setBlockState(pos, state.with(WATER, state.get(WATER) + 1));
-            world.playSound((PlayerEntity)null, pos, SoundEvents.ITEM_BUCKET_EMPTY, SoundCategory.BLOCKS, 0.2F, 1.5F);
-
-            if (b instanceof BoilerBlockEntity) {
-                ((BoilerBlockEntity) b).setLiquid(state.get(WATER) + 1);
-
-                return ActionResult.SUCCESS;
-
-            }
-
-        }
-
-        if (!world.isClient) {
-            NamedScreenHandlerFactory screenHandlerFactory = ((BoilerBlockEntity) world.getBlockEntity(pos));
-
-            if (screenHandlerFactory != null) {
-                player.openHandledScreen(screenHandlerFactory);
-                return ActionResult.SUCCESS;
-
-            }
-        }
 
 
 
@@ -183,12 +160,7 @@ public class BoilerBlock extends BlockWithEntity implements BlockEntityProvider 
         return new BoilerBlockEntity(pos, state);
     }
 
-    @Nullable
-    @Override
-    public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
-        return validateTicker(type, FlavoredBlockEntityType.BOILER,
-                (world1, pos, state1, blockEntity) -> blockEntity.tick(world1, pos, state1));
-    }
+
 
 
 }

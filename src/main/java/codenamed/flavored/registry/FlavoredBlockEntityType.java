@@ -1,7 +1,10 @@
 package codenamed.flavored.registry;
 
 import codenamed.flavored.Flavored;
+import codenamed.flavored.block.entity.BoilerBlockEntity;
 import codenamed.flavored.block.entity.FermenterBlockEntity;
+import codenamed.flavored.block.entity.OvenBlockEntity;
+import codenamed.flavored.block.entity.PanBlockEntity;
 import com.mojang.datafixers.types.Type;
 import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityType;
 import net.minecraft.block.Block;
