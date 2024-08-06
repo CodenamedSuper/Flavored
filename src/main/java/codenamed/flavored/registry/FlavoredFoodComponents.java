@@ -7,6 +7,9 @@ import net.minecraft.entity.effect.StatusEffects;
 
 public class FlavoredFoodComponents {
 
+
+    public static final FoodComponent HONEY = new FoodComponent.Builder().nutrition(2).saturationModifier(0.2f).build();
+
     public static final FoodComponent OIL = new FoodComponent.Builder().nutrition(1).saturationModifier(0.2f).build();
 
     public static final FoodComponent TOMATO_PUREE = new FoodComponent.Builder().nutrition(3).saturationModifier(0.3f).build();

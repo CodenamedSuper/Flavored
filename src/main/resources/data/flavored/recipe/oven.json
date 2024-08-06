@@ -4,10 +4,10 @@
   "key": {
 
     "*": {
-      "id": "minecraft:cobbled_deepslate"
+      "item": "minecraft:cobbled_deepslate"
     },
     "#": {
-      "id": "minecraft:packed_mud"
+      "item": "minecraft:packed_mud"
     }
   },
   "pattern": [

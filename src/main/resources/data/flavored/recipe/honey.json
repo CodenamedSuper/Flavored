@@ -4,18 +4,18 @@
   "key": {
 
     "*": {
-      "item": "minecraft:copper_ingot"
+      "item": "minecraft:glass"
     },
     "#": {
-      "tag": "minecraft:planks"
+      "item": "minecraft:honeycomb"
     }
   },
   "pattern": [
-    "###",
-    "* *",
-    "###"
+    "   ",
+    "*#*",
+    " * "
   ],
   "result": {
-    "id": "flavored:fermenter"
+    "id": "flavored:honey"
   }
 }

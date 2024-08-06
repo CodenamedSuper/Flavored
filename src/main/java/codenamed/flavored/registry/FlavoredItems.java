@@ -2,6 +2,7 @@ package codenamed.flavored.registry;
 
 import codenamed.flavored.Flavored;
 import codenamed.flavored.helper.Color;
+import codenamed.flavored.item.custom.CondimentItem;
 import codenamed.flavored.item.custom.DefaultSeedItem;
 import codenamed.flavored.item.custom.DrinkItem;
 import net.minecraft.item.AliasedBlockItem;
@@ -12,12 +13,13 @@ import net.minecraft.util.Identifier;
 public class FlavoredItems {
 
     public static final Item OIL = registerItem("oil",
-            new DrinkItem(new Item.Settings().food(FlavoredFoodComponents.OIL), Color.oil.asString()));
+            new CondimentItem(new Item.Settings().food(FlavoredFoodComponents.OIL)));
 
     public static final Item TOMATO_PUREE = registerItem("tomato_puree",
-            new DrinkItem(new Item.Settings().food(FlavoredFoodComponents.TOMATO_PUREE), Color.red.asString()));
+            new CondimentItem(new Item.Settings().food(FlavoredFoodComponents.TOMATO_PUREE)));
 
-
+    public static final Item HONEY = registerItem("honey",
+            new CondimentItem(new Item.Settings().food(FlavoredFoodComponents.HONEY)));
 
     public static final Item TOMATO = registerItem("tomato",
             new Item(new Item.Settings().food(FlavoredFoodComponents.TOMATO)));
