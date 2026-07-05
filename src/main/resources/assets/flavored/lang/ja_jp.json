@@ -1,0 +1,152 @@
+{
+  "creativetab.flavored.flavored": "Flavored",
+
+  "entity.flavored.tomato": "トマト",
+
+  "block.flavored.tomato_bush": "トマトの茂み",
+
+  "block.flavored.cinnamon_stalk": "シナモンの仮茎",
+  "block.flavored.stripped_cinnamon_stalk": "皮を剥いだシナモンの仮茎",
+  "block.flavored.waxed_stripped_cinnamon_stalk": "再生を止めた皮を剥いだシナモンの仮茎",
+  "block.flavored.cinnamon_sprout": "シナモンの芽",
+  "item.flavored.cinnamon": "シナモン",
+
+  "item.flavored.green_tomato": "グリーントマト",
+  "item.flavored.yellow_tomato": "イエロートマト",
+  "item.flavored.red_tomato": "トマト",
+
+  "item.flavored.tomato_seeds": "トマトの種",
+
+  "block.flavored.chocolate_block": "チョコブロック",
+  "block.flavored.chocolate_tiles": "チョコタイル",
+  "block.flavored.chocolate_tile_slab": "チョコタイルのハーフブロック",
+  "block.flavored.chocolate_tile_stairs": "チョコタイルの階段",
+
+  "item.flavored.chocolate": "チョコレート",
+  "item.flavored.chocolate_egg": "チョコエッグ",
+  "item.flavored.chocken_spawn_egg": "チョコッコのスポーンエッグ",
+  "entity.flavored.chocken": "チョコッコ",
+  "entity.flavored.chocolate_egg": "チョコエッグ",
+
+  "effect.flavored.sugar_rush": "お砂糖ブースト",
+  "effect.flavored.sugar_crave": "貪欲",
+  "effect.flavored.popped": "ハジケ",
+  "effect.flavored.heat": "辛味",
+  "effect.flavored.boozed": "ほろ酔い",
+  "effect.flavored.hangover": "二日酔い",
+
+  "item.flavored.soft_cheese_slice": "ソフトチーズのスライス",
+  "item.flavored.aged_cheese_slice": "チーズのスライス",
+
+  "block.flavored.soft_cheese": "ソフトチーズ",
+  "block.flavored.aged_cheese": "熟成しきったチーズ",
+
+  "item.flavored.ground_beef": "牛ひき肉",
+  "item.flavored.cooked_ground_beef": "焼き牛ひき肉",
+  "item.flavored.chicken_drumstick": "生の鶏もも肉",
+  "item.flavored.cooked_chicken_drumstick": "焼き鶏もも肉",
+  "item.flavored.mutton_shank": "生の羊すね肉",
+  "item.flavored.cooked_mutton_shank": "焼き羊すね肉",
+  "item.flavored.pork_jowl": "生の豚トロ",
+  "item.flavored.cooked_pork_jowl": "焼き豚トロ",
+
+  "item.flavored.knife": "包丁",
+  "block.flavored.keg": "酒樽",
+
+  "block.flavored.corn_bush": "コーンの茂み",
+  "item.flavored.corn": "コーン",
+  "item.flavored.corn_seeds": "コーンの種",
+
+  "block.flavored.mixing_bowl": "ミキシングボウル",
+  "item.flavored.whisk": "泡だて器",
+  "item.flavored.flour": "小麦粉",
+  "item.flavored.dough": "生地",
+
+  "block.flavored.oven": "窯",
+  "item.flavored.batter": "バッター液",
+  "item.flavored.butter": "バター",
+
+  "container.oven": "窯",
+  "stat.flavored.interact_with_oven": "窯に触れる",
+  "stat.flavored.interact_with_keg": "酒樽に触れる",
+  "stat.flavored.interact_with_mixing_bowl": "ミキシングボウルに触れる",
+  "stat.flavored.mix_item": "アイテムが完全に混ぜられる",
+  "stat.flavored.eat_pudding_slice": "プリンが食べられる",
+  "stat.flavored.take_pizza_slice": "ピザを一切れ取られる",
+  "stat.flavored.crave_chocolate": "チョコレートに飢える",
+
+  "item.flavored.garlic": "ニンニク",
+  "block.flavored.garlics": "ニンニク",
+
+  "item.flavored.pepper": "トウガラシ",
+  "item.flavored.dried_pepper": "乾燥したトウガラシ",
+  "item.flavored.spinach": "ホウレンソウ",
+  "item.flavored.pepper_seeds": "トウガラシの種",
+  "item.flavored.spinach_seeds": "ホウレンソウの種",
+  "item.flavored.pastry_dough": "パン生地",
+  "item.flavored.cookie_dough": "クッキー生地",
+
+  "enchantment.flavored.butchery": "屠畜",
+  "block.flavored.pudding": "プリン",
+  "block.flavored.pizza": "ピザ",
+  "item.flavored.pizza_slice": "一切れのピザ",
+
+  "item.flavored.cereal": "シリアル",
+  "item.flavored.salad": "サラダ",
+  "item.flavored.polenta": "ポレンタ",
+  "item.flavored.porridge": "お粥",
+  "item.flavored.tomato_pasta": "トマトパスタ",
+  "item.flavored.pesto_pasta": "ペストパスタ",
+  "item.flavored.carbonara_pasta": "カルボナーラパスタ",
+  "item.flavored.cream_pasta": "クリームパスタ",
+  "item.flavored.ragu_pasta": "ラグーパスタ",
+  "item.flavored.shakshouka": "シャクシューカ",
+  "item.flavored.ossobuco": "オッソブーコ",
+  "item.flavored.hamburger": "ハンバーガー",
+  "item.flavored.shawarma": "シャワルマ",
+  "item.flavored.chicken_sandwich": "チキンサンド",
+  "item.flavored.cheese_sandwich": "チーズサンド",
+  "item.flavored.ham_sandwich": "ハムサンド",
+  "item.flavored.butter_pastry": "バターパン",
+  "item.flavored.cinnamon_pastry": "シナモンパン",
+  "item.flavored.honey_pastry": "ハチミツパン",
+  "item.flavored.chocolate_pastry": "チョコパン",
+  "item.flavored.garlic_bread": "ガーリックトースト",
+  "item.flavored.grilled_corn": "焼きトウモロコシ",
+
+  "item.flavored.sweet_berry_juice": "スイートベリージュース",
+  "item.flavored.glow_berry_juice": "グロウベリージュース",
+  "item.flavored.wort": "麦芽汁",
+  "item.flavored.apple_juice": "リンゴジュース",
+  "item.flavored.sweet_berry_wine": "スイートベリーワイン",
+  "item.flavored.glow_berry_wine": "グロウベリーワイン",
+  "item.flavored.beer": "ビール",
+  "item.flavored.cider": "サイダー",
+
+  "item.flavored.pasta": "パスタ",
+
+  "item.flavored.hot_sauce": "ホットソース",
+
+
+  "subtitles.flavored.block.oven.bake": "窯が焼く",
+  "subtitles.flavored.block.keg.ferment": "酒樽が発酵させる",
+
+  "advancements.flavored.husbandry.obtain_pizza.title": "食の頂点",
+  "advancements.flavored.husbandry.obtain_pizza.description": "あらゆる料理の王、ピザを作る",
+  "advancements.flavored.husbandry.obtain_oven.title": "職人と鍛冶屋が子を成せば",
+  "advancements.flavored.husbandry.obtain_oven.description": "窯を作る",
+  "advancements.flavored.husbandry.obtain_all_domestic_crops.title": "国家買収",
+  "advancements.flavored.husbandry.obtain_all_domestic_crops.description": "村人が育てたすべての作物を手に入れる",
+  "spiciness.flavored.level1": "微辛",
+  "spiciness.flavored.level2": "中辛",
+  "spiciness.flavored.level3": "激辛",
+
+
+  "gui.recipebook.toggleRecipes.fermentable": "発酵可能レシピを表示中",
+  "gui.recipebook.toggleRecipes.mixable": "混ぜ合わせ可能なレシピを表示中",
+  "gui.recipebook.toggleRecipes.bakable": "ベーキング可能なレシピを表示中",
+  "block.flavored.baking": "ベーキング",
+  "gui.jei.category.flavored.mixing": "混ぜる",
+  "gui.jei.category.flavored.baking": "ベーキング",
+  "gui.jei.category.flavored.fermenting": "発酵"
+}
